@@ -1,0 +1,475 @@
+@media (max-width:480px) {
+    .container-fluid {
+        padding: 0% 5%;
+    }
+
+    .mynavbar.navbar {
+        padding: 10px 0px !important;
+    }
+
+    .navbar-dark .navbar-toggler {
+        margin-left: 0px !important;
+    }
+
+    .def-content-area {
+        padding: 30px 0px 30px 0px;
+        background: linear-gradient(to bottom, #ffffff, #cee2ce, #668251);
+    }
+
+    .ben-list {
+        padding-top: 0px;
+        display: grid;
+    }
+
+    .ben-list ul {
+        margin-top: 0px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .announ-sec {
+        width: 100%;
+        padding: 0px 0px;
+    }
+
+    .contante_wrapper {
+        background: #FFF;
+        padding: 1% 5% !important;
+    }
+    .smpadding01 {
+    padding-right:.5rem !important;
+}
+.middile-panel {
+    padding: 0px 0px;
+}
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .mynavbar.navbar {
+        padding: 10px;
+    }
+
+    .wel-text,
+    .wel-img-bg {
+        width: 100%;
+    }
+
+    .wel-text {
+        padding: 40px 30px;
+        text-align: center;
+    }
+
+    .wel-detail-text {
+        text-align: center;
+    }
+
+    .sec-tittle h3 {
+        border: 0px;
+    }
+
+    .sec-tittle h3::after {
+        display: none;
+    }
+
+    .ben-list ul li {
+        flex: 1 calc(50% - 20px);
+    }
+
+    .cover-area .c-areas .c-diff-area ul li {
+        width: 100%;
+    }
+
+    .callaction-list .action-item {
+        width: 100%;
+    }
+
+    .crad-cont {
+        flex-direction: row !important;
+    }
+
+    .mynavbar,
+    .top-head {
+        width: 100%;
+    }
+
+    .top-head {
+        height: 100%;
+    }
+
+    .logo_iso {
+        width: 17%;
+    }
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .head-logo {
+        text-align: center;
+    }
+
+    .head-center,
+    .head-right {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    footer {
+        margin-top: 10px;
+    }
+
+    .designedby,
+    .counters,
+    .social-media {
+        width: 100%;
+        justify-content: center !important;
+    }
+
+    .com-side-box .com-cont-box {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        background-color: #000;
+        margin-top: 3px;
+    }
+
+    .navbar-dark .navbar-toggler {
+        margin-left: 10px;
+    }
+
+    .container {
+        width: auto;
+    }
+
+    .arch-box {
+        width: 100% !important;
+    }
+
+    .side-logo-sec {
+        display: none;
+    }
+
+    .wel-sec-text .wel-sec-text {
+        width: 100%;
+    }
+
+    .wel-sec-text .wel-sec-img {
+        width: 100%;
+        padding: 10px;
+        text-align: -webkit-center;
+        background-color: #fff;
+        border-radius: 4px;
+    }
+
+    .wel-sec-text .wel-sec-img img {
+        width: 200px;
+    }
+
+    .cover-area .nav-item .nav-link {
+        font-size: 12px;
+    }
+
+    .c-diff-area ul li {
+        width: 49.5%;
+        vertical-align: text-top;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 575.99px) and (max-width: 767.98px) {
+
+    .mynavbar,
+    .top-head {
+        width: 100%;
+    }
+
+    .mynavbar.navbar {
+        padding: 10px;
+    }
+
+    .wel-text,
+    .wel-img-bg {
+        width: 100%;
+    }
+
+    .wel-text {
+        padding: 40px 30px;
+        text-align: center;
+    }
+
+    .wel-detail-text {
+        text-align: center;
+    }
+
+    .sec-tittle h3 {
+        border: 0px;
+    }
+
+    .sec-tittle h3::after {
+        display: none;
+    }
+
+    .ben-list ul li {
+        flex: 1 calc(50% - 20px);
+    }
+
+    .cover-area .c-areas .c-diff-area ul li {
+        width: 48%;
+    }
+
+    .callaction-list .action-item {
+        width: 100%;
+    }
+
+    .crad-cont {
+        flex-direction: row !important;
+    }
+
+    .mynavbar,
+    .top-head {
+        width: 100%;
+    }
+
+    .logo_iso {
+        width: 17%;
+    }
+
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .head-logo {
+        text-align: center;
+    }
+
+    .head-center,
+    .head-right {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    footer {
+        margin-top: 10px;
+    }
+
+    .designedby,
+    .counters,
+    .social-media {
+        width: 100%;
+        justify-content: center !important;
+    }
+
+    .com-side-box .com-cont-box {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        background-color: #000;
+        margin-top: 3px;
+    }
+
+    .navbar-dark .navbar-toggler {
+        margin-left: 10px;
+    }
+
+    .container {
+        width: auto;
+    }
+
+    .arch-box {
+        width: 100% !important;
+    }
+
+    .side-logo-sec {
+        display: none;
+    }
+
+    .wel-sec-text .wel-sec-text {
+        width: 100%;
+    }
+
+    .wel-sec-text .wel-sec-img {
+        width: 100%;
+        padding: 10px;
+        text-align: -webkit-center;
+        background-color: #fff;
+        border-radius: 4px;
+    }
+
+    .wel-sec-text .wel-sec-img img {
+        width: 200px;
+    }
+
+    .cover-area .nav-item .nav-link {
+        font-size: 12px;
+    }
+
+    .c-diff-area ul li {
+        width: 49.5%;
+        vertical-align: text-top;
+    }
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (min-width: 767.99px) and (max-width: 991.98px) {
+
+    .crad-cont .text-cont p,
+    .crad-cont .text-cont ul li a {
+        font-size: 12px;
+    }
+
+    .crad-cont .text-cont {
+        padding: 0px;
+    }
+
+    .head-right {
+        width: 34%;
+    }
+
+    .head-center {
+        width: 50%;
+    }
+
+    .head-right .isn-nob {
+        font-size: 20px;
+    }
+
+    .wel-text,
+    .wel-img-bg {
+        width: 50%;
+    }
+
+    .wel-text {
+        padding: 40px 30px;
+        text-align: center;
+    }
+
+    .wel-detail-text {
+        text-align: center;
+    }
+
+    .wel-text h1 {
+        margin: 0px 0px 20px 0px;
+        font-size: 26px;
+        line-height: 39px;
+    }
+
+    .wel-text h4 {
+        margin: 0px 0px 10px 0px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .cover-area .c-areas .c-diff-area ul li {
+        width: 32%;
+    }
+
+    .designedby {
+        font-size: 11px;
+    }
+
+    .side-logo-sec {
+        display: none;
+    }
+
+    .wel-sec-text .wel-sec-text {
+        width: 100%;
+    }
+
+    .wel-sec-text .wel-sec-img {
+        width: 50%;
+        padding: 10px;
+        text-align: -webkit-center;
+        background-color: #fff;
+        border-radius: 4px;
+    }
+
+    .cover-area .nav-item .nav-link {
+        font-size: 12px;
+    }
+
+    .c-diff-area ul li {
+        width: 49.5%;
+        vertical-align: text-top;
+    }
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (min-width: 991.99px) and (max-width: 1199.98px) {
+    .head-right .isn-nob {
+        font-size: 21px;
+    }
+
+    .mynavbar .navbar-nav .nav-link {
+        font-size: 13px;
+        padding: 10px 7px !important;
+    }
+
+    .wel-text {
+        padding: 40px 24px;
+    }
+
+    .wel-text h1 {
+        margin: 0px 0px 20px 0px;
+        font-size: 26px;
+        line-height: 39px;
+    }
+
+    .wel-text h4 {
+        margin: 0px 0px 10px 0px;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .crad-cont .text-cont p,
+    .crad-cont .text-cont ul li a {
+        font-size: 12px;
+    }
+
+    .side-logo-sec {
+        display: none;
+    }
+
+    .wel-sec-text .wel-sec-text {
+        width: 100%;
+    }
+
+    .wel-sec-text .wel-sec-img {
+        width: 50%;
+        padding: 10px;
+        text-align: -webkit-center;
+        background-color: #fff;
+        border-radius: 4px;
+    }
+
+    .cover-area .nav-item .nav-link {
+        font-size: 12px;
+    }
+
+    .c-diff-area ul li {
+        width: 49.5%;
+        vertical-align: text-top;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width:1200px) and (max-width: 1300px) {
+    .mynavbar .navbar-nav .nav-link {
+        font-size: 12px;
+        padding: 10px 16px !important;
+    }
+}
+
+@media (min-width:1300px) and (max-width: 1400px) {
+    .mynavbar .navbar-nav .nav-link {
+        font-size: 13px;
+        padding: 10px 17px !important;
+    }
+}
